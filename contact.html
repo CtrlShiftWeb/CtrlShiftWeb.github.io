@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - CtrlShiftWeb</title>
+    <meta name="description" content="Get in touch with CtrlShiftWeb for your web development needs. Contact us today for a free consultation.">
+    <link rel="icon" type="image/jpg" href="ctrlshiftweb-logo.jpg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-brand">
+                    <h2>CtrlShiftWeb</h2>
+                </div>
+                <ul class="nav-menu" id="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="services.html" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="portfolio.html" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="testimonials.html" class="nav-link">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link active">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="privacy.html" class="nav-link">Privacy Policy</a>
+                    </li>
+                </ul>
+                <div class="nav-toggle" id="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p>Ready to start your project? Get in touch with our team for a free consultation.</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-content">
+                    <!-- Contact Form -->
+                    <div class="contact-form-container">
+                        <h2>Send Us a Message</h2>
+                        <form class="contact-form" id="contact-form" action="https://ctrlshiftwebforms.onrender.com/submit" method="POST">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" required>
+                                <span class="error-message" id="name-error"></span>
+                            </div>
+    
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" required>
+                                <span class="error-message" id="email-error"></span>
+                            </div>
+    
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="web-development">Web Development</option>
+                                <option value="ui-ux-design">UI/UX Design</option>
+                                <option value="seo-services">SEO Services</option>
+                                <option value="maintenance">Website Maintenance</option>
+                                <option value="consulting">Digital Consulting</option>
+                                <option value="ecommerce">E-commerce Solutions</option>
+                                <option value="other">Other</option>
+                                </select>
+                                <span class="error-message" id="subject-error"></span>
+                            </div>
+    
+                        
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="6" required placeholder="Tell us about your project..."></textarea>
+                                <span class="error-message" id="message-error"></span>
+                            </div>
+    
+                            <div class="form-group checkbox-group">
+                                <input type="checkbox" id="newsletter" name="newsletter" value="subscribe">
+                                <label for="newsletter">Subscribe to our newsletter for web development tips and updates</label>
+                            </div>
+    
+                            <button type="submit" class="btn btn-primary submit-btn">
+                                <span class="btn-text">Send Message</span>
+                                <span class="btn-loader" style="display: none;">Sending...</span>
+                            </button>
+                        </form>
+
+                        
+                        <div class="form-success" id="form-success" style="display: none;">
+                            <h3>Thank You!</h3>
+                            <p>Your message has been sent successfully. We'll get back to you within 24 hours.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Info -->
+                    <div class="contact-info-container">
+                        <div class="contact-info">
+                            <h2>Get in Touch</h2>
+                            <p>We're here to help bring your digital vision to life. Reach out to us through any of these channels:</p>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">📧</div>
+                                <div class="contact-details">
+                                    <h4>Email Us</h4>
+                                    <p>connectanandm@gmail.com</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">📞</div>
+                                <div class="contact-details">
+                                    <h4>Call Us</h4>
+                                    <p>+(91) 7760836574</p>
+                                    <p>Mon-Fri: 9AM-6PM EST</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">📍</div>
+                                <div class="contact-details">
+                                    <h4>Visit Us</h4>
+                                    <p>Magadi</p>
+                                    <p>Bengaluru South</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">💬</div>
+                                <div class="contact-details">
+                                    <h4>Live Chat</h4>
+                                    <p>Available on our website</p>
+                                    <p>9AM-5PM IST</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Response Time -->
+                        <div class="response-time">
+                            <h3>Our Response Time</h3>
+                            <ul>
+                                <li>📧 Email: Within 24 hours</li>
+                                <li>📞 Phone: Immediate</li>
+                                <li>💬 Live Chat: Within 5 minutes</li>
+                                <li>🚨 Emergency Support: 24/7</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="map-section">
+            <div class="container">
+                <h2 class="section-title">Find Us</h2>
+                <div class="map-container">
+                    <div class="map-placeholder">
+                        <div class="map-content">
+                            <h3>CtrlShiftWeb Office</h3>
+                            <p>Magadi<br>Bengaluru South</p>
+                            <p><strong>Office Hours:</strong><br>
+                            Monday - Friday: 9:00 AM - 6:00 PM<br>
+                            <a href="https://maps.google.com/?q=123+Tech+Street+San+Francisco+CA" target="_blank" class="btn btn-secondary">Open in Google Maps</a>
+                        </div>
+                        <div class="map-visual">
+                            🗺️
+                            <p>Interactive Map</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="contact-faq-section">
+            <div class="container">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h4>How long does a typical project take?</h4>
+                        <p>Project timelines vary based on complexity. A simple website takes 2-4 weeks, while complex web applications can take 2-6 months. We'll provide a detailed timeline during consultation.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>Do you offer ongoing support?</h4>
+                        <p>Yes! We provide comprehensive maintenance packages including updates, security monitoring, backups, and technical support to keep your website running smoothly.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>What's your payment structure?</h4>
+                        <p>We typically work with a 50% upfront payment and 50% upon completion. For larger projects, we can arrange milestone-based payments to fit your budget.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>Do you work with clients remotely?</h4>
+                        <p>Absolutely! We work with clients worldwide through video calls, project management tools, and regular communication to ensure seamless collaboration.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>CtrlShiftWeb</h3>
+                    <p>Transforming digital experiences with cutting-edge web solutions.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn">💼</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Web Development</a></li>
+                        <li><a href="services.html">UI/UX Design</a></li>
+                        <li><a href="services.html">SEO</a></li>
+                        <li><a href="services.html">Maintenance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Stay updated with our latest news and offers.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 CtrlShiftWeb. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
